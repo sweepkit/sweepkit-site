@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sweepkit — Bulk remove YouTube Watch Later, Liked videos, playlists & history</title>
-<meta name="description" content="Clear your YouTube Watch Later, Liked videos, playlists and watch history in one click. Free Chrome extension with filters, CSV backup and mass unsubscribe. Runs in your browser, no account needed.">
+<title>Sweepkit — Clean up YouTube Watch Later, Liked videos & playlists</title>
+<meta name="description" content="Clear your YouTube Watch Later, Liked videos and playlists in one click, or let Smart cleanup drop watched and stale videos. Free Chrome extension with CSV backup. Runs in your browser, no account needed.">
 <link rel="icon" href="icon128.png">
 <style>
   :root{--bg:#0f0f13;--card:#17171d;--line:#2a2a34;--text:#f2f2f6;--muted:#9a9aa8;--accent:#30c48d;--ink:#06130d}
@@ -49,23 +49,23 @@
   </header>
 
   <h1>Clear your YouTube Watch Later in one click.</h1>
-  <p class="lead">Sweepkit bulk-removes videos from Watch Later, Liked videos, any playlist and your watch history — right in your browser, the same way you would by hand, just a few hundred times faster.</p>
+  <p class="lead">Sweepkit cleans up Watch Later, Liked videos and any playlist — remove everything in one click, or use Smart cleanup to drop what you've watched or never will and keep the rest. It runs right in your browser, the same way you would by hand, just a few hundred times faster.</p>
   <a class="cta" id="install" href="#">Add to Chrome — free</a>
   <a class="cta ghost" href="#how">How it works</a>
   <p class="fine">Works in Chrome, Edge, Brave and other Chromium browsers. Free for 25 removals a day; Pro is a one-time $9.99.</p>
 
   <div class="grid">
-    <div class="card"><b>Watch Later, Liked, playlists, history</b><p>Open the list, click Sweepkit, press Remove. It loads more as it goes and keeps running after you close the popup.</p></div>
+    <div class="card"><b>Watch Later, Liked, playlists</b><p>Open the list, click Sweepkit, press Remove. It loads more as it goes and keeps running after you close the popup.</p></div>
     <div class="card"><b>Filters that keep what matters</b><p>Remove only videos matching a title, channel or length — or keep those and remove everything else. (Pro)</p></div>
     <div class="card"><b>Backup first</b><p>One checkbox downloads a CSV of titles, channels and links before anything is removed.</p></div>
     <div class="card"><b>Polite to YouTube</b><p>Adaptive speed: if YouTube pushes back, Sweepkit slows down and waits instead of hammering.</p></div>
     <div class="card"><b>Mass unsubscribe</b><p>Clean up your subscriptions page the same way. (Pro, beta)</p></div>
-    <div class="card"><b>Private by design</b><p>No account, no server, no analytics. Nothing leaves your browser except a Pro key you paste in.</p></div>
+    <div class="card"><b>Private by design</b><p>No account, no server of our own, no analytics. Your lists stay in your browser; only optional Pro licensing talks to our payment provider.</p></div>
   </div>
 
   <h2 id="how">How it works</h2>
   <ol>
-    <li>Install Sweepkit and open <b>youtube.com/playlist?list=WL</b> (your Watch Later), Liked videos, a playlist or your History.</li>
+    <li>Install Sweepkit and open <b>youtube.com/playlist?list=WL</b> (your Watch Later), Liked videos, or a playlist.</li>
     <li>Click the Sweepkit icon in the toolbar. It shows how many videos it found.</li>
     <li>Press <b>Remove</b>. A small panel on the page shows progress, with Pause and Stop.</li>
   </ol>
@@ -77,9 +77,9 @@
   </div>
 
   <h2>Questions</h2>
-  <details><summary>Is this safe? Can it get my account in trouble?</summary><p>Sweepkit only clicks the same Remove buttons you would click yourself, inside your own browser session. It adds pauses between removals and backs off when YouTube rate-limits. We've seen no account issues, but like any automation, use the Careful speed on very large lists.</p></details>
+  <details><summary>Is this safe? Can it get my account in trouble?</summary><p>Sweepkit only clicks the same Remove buttons you would click yourself, inside your own browser session. It adds pauses between removals and backs off when YouTube rate-limits. We've seen no account issues, but like any automation, it is best not to run it on huge lists back to back.</p></details>
   <details><summary>Why is there a daily limit on the free version?</summary><p>Twenty-five a day covers most tidy-ups for free. People with thousands of videos pay once for Pro, which funds keeping the extension working as YouTube changes.</p></details>
-  <details><summary>It stopped partway through. What now?</summary><p>Reload the page and press Remove again — it picks up where it left off. If YouTube is rejecting removals, wait 20–30 minutes and use Careful speed.</p></details>
+  <details><summary>It stopped partway through. What now?</summary><p>Reload the page and press Remove again — it picks up where it left off. If YouTube is rejecting removals, wait 20–30 minutes and press Start over; Sweepkit automatically goes slower on the next run.</p></details>
   <details><summary>Can I undo?</summary><p>Removals are the same as removing by hand, so there's no bulk undo. Use the CSV backup option first; it saves every title and link.</p></details>
   <details><summary>Does it work in other languages?</summary><p>Most YouTube display languages work. If a menu isn't recognised, switch YouTube to English while it runs.</p></details>
 
